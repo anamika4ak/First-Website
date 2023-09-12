@@ -1,75 +1,81 @@
-
 body {
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header h1 {
-    text-align: center;
-    font-size: 50px;
-    color: white;
+  text-align: center;
+  font-size: 50px;
+  color: white;
 }
 
- header {
-    padding: 20px;
-    background-color: rgb(245, 11, 11);
+header {
+  padding: 20px;
+  background-color: rgb(245, 11, 11);
 }
 
 nav {
-    background-color: #333;
-    overflow: hidden;
-    border-radius: 20px;
-    border: 5px solid darkblue;
-    padding: 2px;
-    margin: 2px;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 5px solid darkblue;
+  padding: 2px;
+  margin: 2px;
 }
 
 nav a {
-    text-decoration: none;
-    padding: 15px;
-    text-align: center;
-    float: left;
-    color: white;
-    background-attachment: scroll;
-    border-radius: 15px; 
-    margin: 2px;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  color: white;
+  background-attachment: scroll;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.para,
+.table {
+  padding-left: 7%;
 }
 
 main {
-    background-color: white;
-    text-align: center;
+  background-color: white;
+  text-align: center;
+  padding-left: 10%;
 }
 
-h2{
-    color :rgb(255, 80, 16);
+h2 {
+  color: rgb(255, 80, 16);
 }
 h2 {
-    padding: 10px;
-    text-decoration: underline;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 section:nth-child(even) {
-    background-color: rgb(241, 241, 241);
+  background-color: rgb(241, 241, 241);
 }
 
 section {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 video {
-    padding: 10px;
+  padding: 10px;
 }
 
 iframe {
-    height: 75vh;
+  height: 75vh;
 }
 
 img {
-    padding: 10px;
+  padding: 10px;
 }
 
 section h5 {
-    margin: 40px;
+  margin: 40px;
 }
 /* 
 footer {
@@ -77,134 +83,132 @@ footer {
     overflow: hidden;
 } */
 
-
 .Manthan_heading {
-    border: 5px solid rgb(3, 188, 255);
-    border-radius: 10px;
-    background-color: rgb(255, 220, 169);
-  }
-  .para1 {
-    font-size: larger;
-    border: 2px solid blue;
-    border-radius: 10px;
-    height: 300px;
-    width: 800px;
-    overflow:auto;
-    padding-left: 15px;
-  }
+  border: 5px solid rgb(3, 188, 255);
+  border-radius: 10px;
+  background-color: rgb(255, 220, 169);
+}
+.para1 {
+  font-size: larger;
+  border: 2px solid blue;
+  border-radius: 10px;
+  height: 300px;
+  width: 800px;
+  overflow: auto;
+  padding-left: 15px;
+}
 
-  .linksMK {
-    padding-left: 15px;
-  }
+.linksMK {
+  padding-left: 15px;
+}
 
-  h1 {
-    color: blue;
-  }
+h1 {
+  color: blue;
+}
 
-  h2 {
-    color: rgb(255, 77, 0);
-  }
+h2 {
+  color: rgb(255, 77, 0);
+}
 
-  h3 {
-    color: blueviolet;
-  }
+h3 {
+  color: blueviolet;
+}
 
-  footer,
-  a {
-    padding: 2px;
-    border: 5px solid red;
-    background-color: rgb(162, 255, 100);
-  }
-  nav {
-    padding: 2px;
-    border: 5px solid red;
-    background-color: rgb(162, 255, 100);
-  }
+footer,
+a {
+  padding: 2px;
+  border: 5px solid red;
+  background-color: rgb(162, 255, 100);
+}
+nav {
+  padding: 2px;
+  border: 5px solid red;
+  background-color: rgb(162, 255, 100);
+}
 
-  table {
-    background-color: rgb(60, 0, 255);
-    border-radius: 15px;
-  }
-  th {
-    background-color: lawngreen;
-    color: rgb(214, 25, 41);
-  }
-  td {
-    font-weight: bold;
-    background-color: rgb(255, 0, 136);
-    color: snow;
-  }
-  table,
-  th,
-  td {
-    padding: 20px;
-    border: 2px solid black;
-    border-spacing: 5px;
-  }
+table {
+  background-color: rgb(60, 0, 255);
+  border-radius: 15px;
+}
+th {
+  background-color: lawngreen;
+  color: rgb(214, 25, 41);
+}
+td {
+  font-weight: bold;
+  background-color: rgb(255, 0, 136);
+  color: snow;
+}
+table,
+th,
+td {
+  padding: 20px;
+  border: 2px solid black;
+  border-spacing: 5px;
+}
 
-  .container {
-    background-color: rgb(243, 243, 243);
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    margin: 15px 30px;
-    padding: 5px 20px 15px 20px;
-    border: 2px solid gray;
-    border-radius: 5px;
-  }
+.container {
+  background-color: rgb(243, 243, 243);
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 15px 30px;
+  padding: 5px 20px 15px 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
 
-  input[type="text"],
-  input[type="text"],
-  input[type="email"],
-  input[type="date"],
-  input[type="password"],
-  select,
-  textarea {
-    background-color: rgb(243, 243, 243);
-    width: 100%;
-    padding: 10px;
-    border: 1px solid rgb(167, 167, 167);
-    border-radius: 5px;
-  }
-  fieldset {
-    background-color: rgb(243, 243, 243);
-    border: 1px solid rgb(167, 167, 167);
-  }
-  .main_heading {
-    background-color: rgb(243, 243, 243);
-    text-align: center;
-  }
-  input[type="submit"] {
-    background-color: rgb(226, 255, 255);
-    width: 100%;
-    height: 50px;
-    padding: 12px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+input[type="text"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 5px;
+}
+fieldset {
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(167, 167, 167);
+}
+.main_heading {
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: rgb(226, 255, 255);
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
-  input[type="submit"]:hover {
-    background-color: rgb(255, 37, 237);
-  }
+input[type="submit"]:hover {
+  background-color: rgb(255, 37, 237);
+}
 
-  footer {
-    background-color: #333;
-    overflow: hidden;
-    border-radius: 20px;
-    border: 5px solid darkblue;
-    padding: 2px;
-    margin: 2px;
-    
-  }
+footer {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 5px solid darkblue;
+  padding: 2px;
+  margin: 2px;
+}
 
-  footer a {
-    text-decoration: none;
-    padding: 15px;
-    text-align: center;
-    float: left;
-    color: white;
-    background-attachment: scroll;
-    border-radius: 15px; 
-    margin: 2px;
+footer a {
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  color: white;
+  background-attachment: scroll;
+  border-radius: 15px;
+  margin: 2px;
 }
